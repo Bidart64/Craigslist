@@ -1,0 +1,39 @@
+{
+  "name": "base-depths-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "apollo-server": "^2.17.0",
+    "body-parser": "^1.19.0",
+    "change-case": "^4.1.1",
+    "cycle": "^1.0.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "graphql": "^15.4.0",
+    "graphql-redis-subscriptions": "^2.3.1",
+    "graphql-type-json": "0.3.2",
+    "node-craigslist": "^2.2.1",
+    "secp256k1": "^4.0.2",
+    "shelljs": "^0.8.4",
+    "shelljs-plugin-clear": "^0.2.0",
+    "uuid": "^8.3.1",
+    "uuidv4": "^6.2.3"
+  },
+  "devDependencies": {
+    "apollo": "^2.30.3",
+    "eslint": "^6.8.0",
+    "eslint-config-defaults": "^9.0.0",
+    "nodemon": "^2.0.4",
+    "solc": "0.6.2",
+    "solhint": "^3.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}

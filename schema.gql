@@ -1,0 +1,29 @@
+type Query {
+  searchForCars(search: Search): [Posting]
+}
+
+
+
+type Posting {
+  description: String
+  mapUrl: String
+  pid: String
+  replyUrl: String
+  title: String!
+  url: String
+  date: String
+  postedAt: String
+  updatedAt: String
+  images: [String]
+  contactName: String
+  phoneNumber: String
+  email: String
+  price: String 
+}
+
+input Search{
+  text: String!
+  maxYear: String!
+  cities: [String!]
+  hasPic: Boolean
+}
